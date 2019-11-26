@@ -40,7 +40,7 @@ hash={}
 end 
   hash
 #binding.pry 
-
+end 
 end 
 end 
 end 
