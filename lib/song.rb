@@ -13,27 +13,45 @@ def initialize(name,artist,genre)
   @artist=artist
   @@genres << genre 
   @@artists << artist
-#binding.pry
+
 end 
 
-def self.artists 
-  @@artists.uniq
+def self.artists
+    @@artists.uniq
 end 
 
 def self.genres 
-  @@genres
+  @@genres.uniq
 end 
+
 def self.count 
   @@count 
   
- # binding.pry 
 end 
 
+def self.genre_count 
+hash={} 
+@@genres.each do |key|
+  if hash[key]  
+    hash[key] += 1 
+  else 
+    hash[key] = 1
+  end 
+end 
+  hash
+end 
 
-def self.artists
-  @@artists
+def self.artist_count
+hash ={}
+@@artists.each do |key|
+  if hash[key]
+    hash[key] +=1 
+  else
+    hash[key] = 1 
+  end 
   
- #binding.pry 
-end
+end 
+hash
+end 
 
 end 
