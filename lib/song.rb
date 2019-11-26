@@ -16,10 +16,9 @@ def initialize(name,artist,genre)
 #binding.pry
 end 
 
-def self.artists 
-  @@artists.uniq
-end 
-
+  def self.artists
+    @@artists.uniq
+  end 
 def self.genres 
   @@genres
 end 
