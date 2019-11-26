@@ -37,6 +37,7 @@ hash={}
   else 
     hash[key] = 1
   end 
+end 
   hash
 #binding.pry 
 
