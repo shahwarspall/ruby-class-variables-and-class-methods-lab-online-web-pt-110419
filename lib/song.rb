@@ -31,5 +31,7 @@ end
 
 def self.genre_count 
 hash={} 
+
+binding.pry 
 end 
 end 
