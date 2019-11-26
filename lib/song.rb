@@ -34,7 +34,7 @@ hash={}
 @@genres.each do |key|
  if  
   
-binding.pry 
+#binding.pry 
 
 end 
 end 
