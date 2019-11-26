@@ -33,9 +33,7 @@ def self.genre_count
 hash={} 
 @@genres.each do |key|
     if hash[key]  
-    hash[key]
-  else 
-    hash[key] = 1
+    hash[key] +1 
   end 
 end 
   hash
