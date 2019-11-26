@@ -13,7 +13,7 @@ def initialize(name,artist,genre)
   @artist=artist
   @@genres << genre 
   @@artists << artist
-#binding.pry
+
 end 
 
   def self.artists
@@ -25,14 +25,7 @@ end
 def self.count 
   @@count 
   
- # binding.pry 
 end 
 
-
-def self.artists
-  @@artists
-  
- #binding.pry 
-end
 
 end 
