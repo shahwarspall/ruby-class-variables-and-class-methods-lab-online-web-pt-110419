@@ -33,7 +33,7 @@ def self.genre_count
 hash={} 
 @@genres.each do |key|
   if hash[key]  
-    
+    new_hash[key] += 1 
   
 #binding.pry 
 
