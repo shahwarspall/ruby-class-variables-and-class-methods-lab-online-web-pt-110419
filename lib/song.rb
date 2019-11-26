@@ -49,8 +49,9 @@ hash ={}
   else
     hash[key] = 1 
   end 
-  hash
+  
 end 
+hash
 end 
 
 end 
